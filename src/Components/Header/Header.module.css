@@ -1,0 +1,38 @@
+.container {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  background: linear-gradient(to top left, #235a4a, #042017);
+  align-items: center;
+  padding: 0 8rem;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.title img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+.title h1 {
+  font-size: 3rem;
+  color: rgb(235, 216, 220);
+}
+.actions {
+  display: flex;
+  font-size: 2rem;
+  gap: 3rem;
+}
+.actions a {
+  text-decoration: none;
+  /* border: 1px solid black; */
+  padding: 0.4rem 1rem;
+  background-color: crimson;
+  border-radius: 0.4rem;
+  color: aliceblue;
+  cursor: pointer;
+}
